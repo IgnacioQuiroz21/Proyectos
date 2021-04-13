@@ -1,39 +1,53 @@
-.Perroid {
-    width: 200px;
-    height: 200px;
+body {
+    background-color: #7fffd4;
+
 }
 
-.Gatoid {
+.imagen {
+    float: left;
     width: 200px;
     height: 200px;
+    margin: 3px;
+    padding: 3px;
+    
+    clear: both;
 }
 
-.Maflaid {
+.texto {
+    
+    float: left;
     width: 200px;
     height: 200px;
+    margin: 3px;
+    padding: 3px;
+   
+    text-align: center;
+    line-height: 200px;
+    
+    
 }
-
-.Garyid {
-    width: 200px;
-    height: 200px;
+.centrado{
+    text-align: center;
 }
+.izquierda{
 
-.Tachitoid {
-    width: 200px;
-    height: 200px;
+    text-align: left;
+
 }
-
-.Firulaisid {
-    width: 200px;
-    height: 200px;
+.justificadoss{ 
+   
+    text-align: justify;
 }
+.descripcion{
 
-.Dakotaid {
+    float: left;
     width: 200px;
     height: 200px;
-}
+    margin: 3px;
+    padding: 3px;
+    
+    text-align: center;
+    line-height: 250%;
 
-.Kenayid {
-    width: 200px;
-    height: 200px;
+
 }
