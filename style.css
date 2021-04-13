@@ -1,52 +1,72 @@
-.Perroid {
-    width: 200px;
-    height: 200px;
-}
-
-.Gatoid {
-    width: 200px;
-    height: 200px;
-}
-
-.Maflaid {
-    width: 200px;
-    height: 200px;
-}
-
-.Garyid {
-    width: 200px;
-    height: 200px;
-}
-
-.Tachitoid {
-    width: 200px;
-    height: 200px;
-}
-
-.Firulaisid {
-    width: 200px;
-    height: 200px;
-}
-
-.Dakotaid {
-    width: 200px;
-    height: 200px;
-}
-
-.Kenayid {
-    width: 200px;
-    height: 200px;
-}
-
-.Texto {
+body {
+    background-color: #7fffd4;
     font-family: sans-serif;
+
 }
 
-.color {
-    background: #ffffff;
-    border: #ffffff;
+.imagen {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    padding: 3px;
+    
+    clear: both;
 }
 
-.color:hover {
-    color: #f5760d;
+.texto {
+    
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+
+    
+    
+}
+.centrado{
+    text-align: center;
+;
+
+}
+.izquierda{
+
+    text-align: left;
+
+}
+.justificadoss{ 
+   
+    text-align: justify;
+}
+.descripcion{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    line-height: 250%;
+
+
+}
+.boton{
+
+    background-color: powderblue;
+    transition: background-color .5s;
+    text-align: center;
+    float: left;
+    margin: 80px;
+    
+}
+.boton:hover{
+color: #2f00ff;
+}
+
+button{
+    background-color: powderblue;
+}
+button:hover{
+ color: #2f00ff; 
 }
