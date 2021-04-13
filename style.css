@@ -37,3 +37,16 @@
     width: 200px;
     height: 200px;
 }
+
+.Texto {
+    font-family: sans-serif;
+}
+
+.color {
+    background: #ffffff;
+    border: #ffffff;
+}
+
+.color:hover {
+    color: #f5760d;
+}
