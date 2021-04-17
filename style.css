@@ -2,18 +2,28 @@ body {
     background-color: #333333;
     font-family: sans-serif;
     color: #ffffff;
+
+    
 }
 
 nav {
+ 
     float: left;
     width: 20%;
-    color: #ffffff;
-    margin: 20px;
+    
+}
+
+section {
+    float: right;
+    width: 80%;
+    text-align: justify;
+
 }
 
 .color1 {
     background-color: rgb(10, 181, 238);
     height: 25%;
+    
 }
 
 .color2 {
@@ -36,10 +46,7 @@ nav {
     color: #ffffff;
 }
 
-section {
-    width: 80%;
-    margin: auto;
-}
+
 
 .imagen {
     float: left;
@@ -58,9 +65,7 @@ section {
     line-height: 200px;
 }
 
-.centrado {
-    text-align: center;
-}
+
 
 .izquierda {
     text-align: left;
