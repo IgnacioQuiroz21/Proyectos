@@ -1,7 +1,44 @@
 body {
-    background-color: #7fffd4;
+    background-color: #333333;
     font-family: sans-serif;
+    color: #ffffff;
+}
 
+nav {
+    float: left;
+    width: 20%;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.color1 {
+    background-color: rgb(10, 181, 238);
+    height: 25%;
+}
+
+.color2 {
+    background-color: #ffff00;
+    height: 25%;
+}
+
+.color3 {
+    background-color: #ffa500;
+    overflow: hidden;
+    height: 25%;
+}
+
+.cmenu a {
+    color: #d6d0d0;
+    text-decoration: none;
+}
+
+.cmenu a:hover {
+    color: #ffffff;
+}
+
+section {
+    width: 80%;
+    margin: auto;
 }
 
 .imagen {
@@ -10,37 +47,30 @@ body {
     height: 200px;
     margin: 3px;
     padding: 3px;
-    
     clear: both;
 }
 
 .texto {
-    
     float: left;
     width: 200px;
     height: 200px;
     text-align: center;
     line-height: 200px;
-
-    
-    
 }
-.centrado{
+
+.centrado {
     text-align: center;
-;
-
 }
-.izquierda{
 
+.izquierda {
     text-align: left;
-
 }
-.justificadoss{ 
-   
+
+.justificadoss {
     text-align: justify;
 }
-.descripcion{
 
+.descripcion {
     float: left;
     width: 200px;
     height: 200px;
@@ -48,25 +78,24 @@ body {
     padding: 3px;
     text-align: center;
     line-height: 250%;
-
-
 }
-.boton{
 
+.boton {
     background-color: powderblue;
     transition: background-color .5s;
     text-align: center;
     float: left;
     margin: 80px;
-    
-}
-.boton:hover{
-color: #2f00ff;
 }
 
-button{
+.boton:hover {
+    color: #2f00ff;
+}
+
+button {
     background-color: powderblue;
 }
-button:hover{
- color: #2f00ff; 
+
+button:hover {
+    color: #2f00ff;
 }
