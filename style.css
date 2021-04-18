@@ -21,11 +21,13 @@ section {
     text-align: center;
 }
 
-.color2 {
-    background-color: #ffff00;
-    height: 25%;
-}
-
+.carousel {
+    width:640px;
+    height:360px;
+    margin: auto;
+    clear: both;
+    overflow: hidden;
+  }
 .color3 {
     background-color: #ffa500;
     overflow: hidden;
