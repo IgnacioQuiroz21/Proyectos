@@ -2,30 +2,24 @@ body {
     background-color: #333333;
     font-family: sans-serif;
     color: #d6d0d0;
-
-    
 }
 
 nav {
-
-    
     height: 20%;
-    
 }
 
 section {
     margin-left: 10%;
     width: 80%;
     text-align: justify;
-
 }
 
 .color1 {
-    background-color: rgb(10, 181, 238);
-    height: 25%;
-    
+    background-color: rgb(1, 39, 44);
+    overflow: hidden;
+    margin: 10%;
+    text-align: center;
 }
-
 
 .carousel {
     width:640px;
@@ -34,7 +28,6 @@ section {
     clear: both;
     overflow: hidden;
   }
-
 .color3 {
     background-color: #ffa500;
     overflow: hidden;
@@ -50,9 +43,23 @@ section {
     color: #ffffff;
 }
 
-
-
 .imagen {
+    width: 500px;
+    height: 700px;
+    margin: 8px;
+    padding: 3px;
+}
+
+.imagen2 {
+    float: left;
+    width: 500px;
+    height: 700px;
+    margin: 3px;
+    padding: 3px;
+    clear: both;
+}
+
+.imagen1 {
     float: left;
     width: 200px;
     height: 200px;
@@ -68,8 +75,6 @@ section {
     text-align: center;
     line-height: 200px;
 }
-
-
 
 .izquierda {
     text-align: left;
@@ -107,4 +112,31 @@ button {
 
 button:hover {
     color: #2f00ff;
+}
+
+.texto2 {
+    text-align: right;
+}
+
+.box-shadow {
+    box-shadow: 0px 2px 10px #000000;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+.card img {
+    width: 286px;
+    height: 286px;
+}
+
+.card {
+    margin: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hr {
+    color: white;
 }
